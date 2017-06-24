@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background:#e6e6e6;
+}
+
+.main, footer{
+  width:90%;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+header div img{
+  margin:23px;
+  display: inline-block;
+  background:#000;
+  margin-left:70px;
+}
+
+div{
+  display: inline-block;
+  width: 100%;
+  background: #000;
+}
+
+div.fotop{
+  margin:20px auto;
+  background: #e6e6e6;
+  display:block;
+  align-items: center;
+}
+
+header nav{
+  background:white;
+  overflow: hidden;
+  padding: 10px;
+  box-shadow: -webkit-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.19);
+-moz-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.19);
+box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.19);
+  margin-top: 5px
+}
+
+header nav ul{
+  list-style: none;
+  margin-left: 60px;
+}
+
+header nav ul li{
+  float: left;
+}
+
+header nav ul li a{
+  padding: 10px 20px;
+  display:block;
+  color:#0F1856;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "times new roman"
+}
+
+header nav ul li a:hover{
+  color:#FF0000;
+}
+
+article{
+  display:inline;
+  width: 23%;
+  float: left;
+  margin:5px;
+  text-align:center;
+  padding: 10px;
+  height:220px;
+  display: inline-block;
+}
+
+article img{
+  margin:0;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+
+}
+
+.desigual{
+  background: #e6e6e6;
+}
+
+.dos{
+  float: left;
+}
+
+.horarios{
+  width: 21%;
+  text-align: center;
+  float:right;
+
+}
+
+.facebook{
+  display: inline-block;
+  background:#e6e6e6;
+  float: right;
+  width: 21%;
+}
+
+.horarios, .facebook{
+  position: relative;
+  bottom:250px;
+}
